@@ -9,48 +9,53 @@
 </head>
 <body>
 
-    <header>
+    <header class="cabecalho">
         <section class="logo">
         </section>
     </header>
 
     <main class="apresentacao">
-        <section class="apresentacao__conteudo__esquerda">
-                <textarea id="texto" onclick="criptando">Digite seu texto</textarea>
 
-                <div class="apresentacao__conteudo__esquerda__info">
+        <section class="apresentacao__conteudo__esquerda">
+                
+            <section class="apresentacao__conteudo_esquerda__textarea">
+                <textarea id="texto" wrap="hard" minlength="1" maxlength="380" placeholder="Digite seu texto"></textarea>           
+            </section>
+            
+            <section class="apresentacao__conteudo__esquerda__info">
                     <img src="img/exclamation-circle.png">
                     <h3> letras minúsculas e sem acento.</h3>
-                </div>
-
-                <div class="apresentacao__conteudo__esquerda__botoes">
+            </section>
+            
+            <section class="apresentacao__conteudo__esquerda__botoes">
                     <button class="apresentacao__conteudo__esquerda__c" onclick="criptografar()">Criptografar</button>
-
-                    <button class="apresentacao__conteudo__esquerda__d" onclick="descriptografar()">Descriptografar</button>
-                </div>
+                    <button class="apresentacao__conteudo__esquerda__d" id="descriptografarBotao" onclick="descriptografar()">Descriptografar</button>
+            </section>
+            
         </section>    
         
         <section class="apresentacao__conteudo__direita">
-                <div class="apresentacao__conteudo__direita__img" id="apresentacao__conteudo__direita__img">
-                </div>
 
-                <div class="apresentacao__conteudo__direita__info">
-                    <h4></h4>
-                    <p id="instrucao"></p>
-                </div>
+                    <section class="apresentacao__conteudo__direita__img" id="apresentacao__conteudo__direita__img">
+                    </section>
 
+                    <section class="apresentacao__conteudo__direita__info" id="apresentacao__conteudo__direita__info">
+                        <h4></h4>
+                        <p id="instrucao"></p>
+                    </section>
 
-                <div class="apresentacao__conteudo__direita__texto">
-                    <p id="resultado"></p>
-                    <p id="ExibeBotaoCopia"></p>
-                </div>
-            
+                    <section class="apresentacao__conteudo__direita__texto">
+                        <p id="MostraCriptoDescripto"></p>
+                        <p id="mensagemCopia" class="apresentacao__conteudo__direita__texto__copia"></p>
+                        <p id="ExibeBotaoCopia"></p>
+                        
+                    </section>
         </section>
 
     </main>
 
     <footer class="footer">
-        Desenvolvido por Fábio Jr. Griesang
+        Desenvolvido por <a href="https://www.linkedin.com/in/fabiojg/" target="_blank" title="Perfil LinkedIn">Fábio Jr. Griesang</a>
     </footer>
 
             
