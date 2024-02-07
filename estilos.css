@@ -344,6 +344,10 @@
         margin: 1%;
     }
 
+    .apresentacao__conteudo__esquerda{
+        padding: 1%;
+    }
+
 
     .apresentacao__conteudo__esquerda__botoes{
         flex-direction: column;

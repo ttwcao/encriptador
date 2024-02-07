@@ -142,7 +142,7 @@ function criptografar(){
 
             //ajuste do textarea lado direito
             if (resolucaoLargura > 1100){
-                textoCriptorafado.innerHTML = '<textarea minlength="1" style="height: 600px;" maxlength="380" disabled id="resultado">'+novoTexoDigitado.join('')+'</textarea>';
+                textoCriptorafado.innerHTML = '<textarea minlength="1" style="height: 655px;" maxlength="380" disabled id="resultado">'+novoTexoDigitado.join('')+'</textarea>';
             } else if (resolucaoLargura <= 1100){
                 textoCriptorafado.innerHTML = '<textarea minlength="1" style="height: 300px;" maxlength="380" disabled id="resultado">'+novoTexoDigitado.join('')+'</textarea>';
             } else if(resolucaoLargura <= 450){
@@ -230,7 +230,7 @@ function descriptografar(){
 
         //ajuste do textarea lado direito
         if (resolucaoLargura > 1100){
-            fraseDescriptografada.innerHTML = '<textarea minlength="1" style="height: 600px;" maxlength="380" disabled id="resultado">'+frase+'</textarea>';
+            fraseDescriptografada.innerHTML = '<textarea minlength="1" style="height: 655px;" maxlength="380" disabled id="resultado">'+frase+'</textarea>';
         } else if (resolucaoLargura <= 1100){
             fraseDescriptografada.innerHTML = '<textarea minlength="1" style="height: 300px;" maxlength="380" disabled id="resultado">'+frase+'</textarea>';
         } else if(resolucaoLargura <= 450){
