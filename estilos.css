@@ -291,6 +291,11 @@
         flex-direction: column;
     } 
 
+    .apresentacao__conteudo__esquerda{
+        width: 700px;
+        padding: 1%;
+    }
+
     .apresentacao__conteudo__esquerda__botoes{
         width: 700px;
         /*Topo Direita Inferior Esquerda*/
