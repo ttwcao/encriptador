@@ -345,6 +345,7 @@
     }
 
     .apresentacao__conteudo__esquerda{
+        width: 350px;
         padding: 1%;
     }
 
