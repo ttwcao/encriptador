@@ -95,7 +95,6 @@ function criptografar(){
         const texareaValue = document.getElementById('texto').value;
 
         let resultadoValidado =  validaCaracteres(texareaValue);
-        alert (resultadoValidado);
         
         if (resultadoValidado == true){
 
